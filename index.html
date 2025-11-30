@@ -1,283 +1,186 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-    <title>Portfólio - José Satiro</title>
+    <title>Portfólio Pessoal</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+
     <header>
-        <div class="headerGeral">
-            <div class="tituloPortfolio">
-                <img class="imagemCod" src="./img/iconCode.svg" alt="cod">
-                <p class="tituloPort">Portfolio</p>
-            </div>
-            <nav class="navHeader">
-                <a href="#inicio">Início</a>
-                <a href="#sobre">Sobre mim</a>
-                <a href="#projetos">Projetos</a>
-                <a href="#habilidades">Habilidades</a>
-                <a href="#contato">Contato</a>
-            </nav>
-        </div>
+        <h1>ANTONIO MAX ANDRADE LIMA</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#galeria">Galeria de Momentos</a></li>
+                <li><a href="#contato">Contato</a></li> 
+            </ul>
+        </nav>
     </header>
+
+    
     <main>
-        <div class="inicio" id="inicio">
-            <h1 class="devFull">
-                Desenvolvedor Full Stack Iniciante
-            </h1>
-            <p class="descInicio">
-                Atualmente estudando HTML, CSS e desenvolvimento backend com Python e Jinja, estou construindo minhas bases para criar projetos completos — do visual à lógica. Gosto de aprender explorando na prática e transformando pequenos códigos em soluções reais.
+
+        <section id="sobre">
+            <h2>Sobre mim</h2>
+
+            <figure>
+                <img src="myimg.JPG" alt="Minha foto">
+                <figcaption></figcaption>
+            </figure>
+
+            <p>
+                Olá! Meu nome é <strong>Max Lima</strong> e moro em Maranguape - CE. Tenho 16 anos e atualmente estudo no <b>IFCE - Campus Maranguape</b>, onde estou no quarto semestre do curso Técnico em Informática Integrado ao Ensino Médio. Sou apaixonado por esportes, especialmente vôlei, onde eu treino regularmente. Além disso amo ouvir músicas de diversos gêneros.
             </p>
-            <div class="botoes">
-                
-                <a href="#projetos" class="verProjetos">
-                    Ver Projetos
-                </a>
-                
-                <a href="#contato" class="entrarEmContato">
-                    Entrar em Contato
-                </a>
-                
+        
 
-            </div>
-        </div>
 
-        <div class="sobreMim" id="sobre">
-            <div class="geralSobreMim">
-                <div class="infoGeral">
-                    <div class="tituloSobre">
-                        <h1 class="tituloSobreMim">Sobre mim</h1>
-                        <h3 class="subTSobreMim">Desenvolvedor em formação</h3>
-                    </div>
-                    <div class="descSobreMim">
-                        Oi! Meu nome é José Satiro de Lima e atualmente estudo Técnico em Informática no IFCE — Campus Maranguape.<br><br>
+        <section id="projetos">
+            <h2>Projetos</h2>
 
-                        Tenho focado em desenvolvimento web e gosto de transformar ideias em projetos simples, funcionais e bem feitos.<br><br>
+            <ul>
+                <li><a href="https://github.com/maxlima13/POO-2025.2-TIP4" target="_blank">Projeto de POO</a></li>
+                <li><a href="https://github.com/maxlima13/Tabela-de-notas" target="_blank">Site de Tabela de Notas</a></li>
+                <li><a href="https://github.com/maxlima13/Cadastro-de-Usuario" target="_blank">Site de Cadastro de Usuário</a></li>
+            </ul>
+        </section>
 
-                        Estou sempre aprendendo algo novo e tentando evoluir um pouco a cada código que escrevo.
-                    </div>
-                    <div class="icons">
-                        <a href="https://github.com/SatiroDev" class="gitHub">
-                            <img src="./img/iconGitHub.svg" alt="iconGitHub" class="git">
-                        </a>
-                        <a href="https://instagram.com/j.satiropde7_" class="instagram">
-                            <img src="./img/iconInsta.svg" alt="iconInsta" class="insta">
-                        </a>
-                        <a href="mailto:satirojose492@gmail.com" class="endEmail">
-                            <img src="./img/iconEmail.svg" alt="iconEmail" class="emailL">
-                        </a>
-                    </div>
-                </div>
-                <div class="parteDireita">
-                    <img class="minhaFoto" src="./img/minhaFoto.jpg" alt="minha Foto">
-                </div>
-            </div>
-        </div>
-        <div class="meusProjetos" id="projetos">
-            <div class="tituloProjetos">
+        <section id="habilidades">
+            <h2>Habilidades</h2>
 
-                <div class="tituloMeusProjetos">
-                    <img class="iconFolder" src="./img/iconFolder.svg" alt="">
-                    <h1>
-                        Projetos
-                    </h1>
-                </div>
-                <h3>Trabalhos desenvolvidos durante minha formação acadêmica</h3>
-            </div>
-            <div class="todosProjetos">
-                <div class="projeto">
-                    <p class="tituloProjeto">
-                        Site Pedidos de Brownie
-                    </p>
-                    <p class="descProjeto">
-                        O projeto simula uma pequena loja online onde o usuário pode visualizar os produtos, preencher um pedido e enviar sua localização.
-                    </p>
-                    <a href="https://site-pedidos-brownie.onrender.com/" class="linkProjeto">
-                        Ver no GitHub →
-                    </a>
-                </div>
-                <div class="projeto">
-                    <p class="tituloProjeto">
-                        Projeto Carrinho de Compras Shopee - DIO
-                    </p>
-                    <p class="descProjeto">
-                        Projeto que simula a lógica do carrinho de compras da Shopee
-                    </p>
-                    <a href="https://github.com/SatiroDev/shopee-cart-DIO" class="linkProjeto">
-                        Ver no GitHub →
-                    </a>
-                </div>
-                <div class="projeto">
-                    <p class="tituloProjeto">
-                        Projeto Fórmula 1 - DIO
-                    </p>
-                    <p class="descProjeto">
-                        API desenvolvida com Fastify durante um curso na Digital Innovation One (DIO). O projeto fornece endpoints simples para consultar informações de equipes e pilotos da Fórmula 1.
-                    </p>
-                    <a href="https://github.com/SatiroDev/projeto-formula-1-DIO" class="linkProjeto">
-                        Ver no GitHub →
-                    </a>
-                </div>
-                <div class="projeto">
-                    <p class="tituloProjeto">
-                        Projeto Mario Kart - DIO
-                    </p>
-                    <p class="descProjeto">
-                        Simulador de Corridas do Mario Kart com Node.js
-                    </p>
-                    <a href="https://github.com/SatiroDev/projeto-mario-kart-DIO" class="linkProjeto">
-                        Ver no GitHub →
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="minhasHabilidades" id="habilidades">
-
-            <div class="tituloHabilidade">
-                <div class="tituloH">
-                    <img src="./img/iconMedal.svg" alt="iconMedal" class="medal">
-                    <h1 class="titH">Habilidades Técnicas</h1>
-                </div>
-                <h3 class="subTituloH">
-                    Tecnologias e ferramentas que utilizo
-                </h3>
-            </div>
-            <div class="tabela">
-                <table>
-                    <tr class="linhaTitulo">                  
+            <table>
+                <thead>
+                    <tr>
                         <th>Tecnologia</th>
-                        <th>Nível</th>
-                        <th >Experiência</th>
+                        <th>Nível de Conhecimento</th>
+                        <th>Tempo de Experiência</th>
                     </tr>
+                </thead>
+                <tbody>
                     <tr>
-                        <td>HTML5</td>
-                        <td class="linhaNivel">Intermediário</td>
-                        <td>7 meses</td>    
-                    </tr>
-                    <tr>
-                        <td>CSS3</td>
-                        <td class="linhaNivel">Básico</td>
-                        <td>7 meses</td>                   
-                    </tr>
-                    <tr>
-                        <td>Node.js</td>
-                        <td class="linhaNivel">Básico</td>
-                        <td>7 meses</td>
-                    </tr>
-                    <tr>
-                        <td>Java</td>
-                        <td class="linhaNivel">Básico</td>
+                        <td>HTML</td>
+                        <td>Básico</td>
                         <td>6 meses</td>
                     </tr>
                     <tr>
+                        <td>CSS</td>
+                        <td>Intermediário</td>
+                        <td>6 meses</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Básico</td>
+                        <td>3 meses</td>
+                    </tr>
+                    <tr>
                         <td>Python</td>
-                        <td class="linhaNivel">Intermediário</td>
-                        <td>8 meses</td>
+                        <td>Intermediário</td>
+                        <td>12 meses</td>
                     </tr>
                     <tr>
-                        <td>Flask / Jinja2</td>
-                        <td class="linhaNivel">Básico</td>
-                        <td>1 mês</td>
+                        <td>GitHub / Git</td>
+                        <td>Básico</td>
+                        <td>6 meses</td>
                     </tr>
-                    <tr>
-                        <td>SQL</td>
-                        <td class="linhaNivel">Intermediário</td>
-                        <td>7 meses</td>
-                    </tr>
-                    <tr class="ultLinha">
-                        <td>Git / GitHub</td>
-                        <td class="linhaNivel">Básico</td>
-                        <td>8 meses</td>
-                    </tr>
-                </table>
-            </div>
-            
-        </div>
-        <div class="contato" id="contato">
-            <div class="tituloContato">
-                <div class="tituloC">
-                    <img src="./img/iconPlaneP.svg" alt="iconPlaneP" class="plane">
-                    <h1 class="titC">Entre em Contato</h1>
-                </div>
-                <div class="subTituloContato">
-                <h3 class="subT">
-                    Tem algum projeto em mente? Vamos conversar!
-                </h3>
-            </div>
-            </div>
-            
-            <form action="/enviar">
-                <label for="nome">Nome *</label>
-                <textarea type="text" name="nome" id="nome" rows="1" placeholder="Seu nome completo" required></textarea>
+                </tbody>
+            </table>
+        </section>
 
-                <label for="email">E-mail *</label>
-                <textarea type="email" name="email" id="email" rows="1" placeholder="seu.email@exemplo.com" required></textarea>
+     
+<section id="galeria">
+    <h2>Galeria de Momentos</h2>
 
-                <label for="assunto">Assunto *</label>
-                <textarea type="text" name="assunto" id="assunto" rows="1" placeholder="Assunto da mensagem" required></textarea>
+    <div class="area-galeria">
 
-                <label for="mensagem">Mensagem *</label>
-                <textarea type="text" name="mensagem" id="mensagem" rows="3" placeholder="Digite sua mensagem aqui..." required></textarea>
 
-                <button>
-                    <img src="./img/iconPlaneW.svg" alt="" class="planeB">
-                    <p class="textoBotao">Enviar Mensagem</p>
-                </button>
-            </form>
-        </div>
-    </main>
-    <footer>
-        <div class="hFooter">
-            <div class="navFooter">
-                <p class="secoesFooter">
-                    Seções
-                </p>
-                <nav class="navegacaoFooter">
-                    <a href="#inicio">Início</a>
-                    <a href="#sobre">Sobre mim</a>
-                    <a href="#projetos">Projetos</a>
-                    <a href="#habilidades">Habilidades</a>
-                    <a href="#contato">Contato</a>
-                </nav>
-            </div>
-            <div class="contatoFooter">
-                <p class="contFooter">Contato</p>
-                <div class="contatos">
-                    <p class="email">
-                        <img src="./img/iconEmail.svg" alt="iconEmail" class="emailFooter">
-                        <a href="mailto:satirojose492@gmail.com" class="linkEmail">
-                            satirojose492@gmail.com
-                        </a>
-                    </p>
-                    <p class="gitHubF">
-                        <img src="./img/iconGitHub.svg" alt="iconGitHub" class="gitHubFooter">
-                        <a href="https://github.com/SatiroDev" class="linkGitHub">
-                            SatiroDev
-                        </a>
-                    </p>
-                </div>
-            </div>
-            <div class="informacoesFooter">
-                <p class="infoFooter">
-                    Informações
-                </p>
-                <p class="infos">
-                    Estudante de Desenvolvimento Web <br><br>
-                    Prof. Thomaz Maia <br><br>
-                    Desenvolvimento Web I
-                </p>
-            </div>
-        </div>
-        <div class="direitosAutorais">
-            <p class="foot">
-                © 2025 José Satiro | Desenvolvimento Web I
-            </p>
-        </div>
+        <figure>
+            <img src="/img2.JPG" alt="Foto 2">
+        </figure>
+
+        <figure>
+            <img src="/img4.PNG" alt="Foto 4">
+        </figure>
+
+        <figure>
+            <img src="/img6.PNG" alt="Foto 6">
+        </figure>
+
+        <figure>
+            <img src="/img18.jpg" alt="Foto 10">
+        </figure>
+
+        <figure>
+            <img src="/img11.PNG" alt="Foto 11">
+        </figure>
+
+        <figure>
+            <img src="/img13.PNG" alt="Foto 13">
+        </figure>
+
+        <figure>
+            <img src="/img15.PNG" alt="Foto 15">
+        </figure>
         
+        <figure>
+            <img src="/img21.jpg" alt="Foto 15">
+        </figure>
+
+        <figure>
+            <img src="/img20.jpg" alt="Foto 15">
+        </figure>
+
+        <figure>
+            <img src="/img25.jpg" alt="Foto 15">
+        </figure>
+
+        <figure>
+            <img src="/img23.jpg" alt="Foto 15">
+        </figure>
+
+        <figure>
+            <img src="/img24.jpg" alt="Foto 15">
+        </figure>
+
+    </div>
+</section>
+
+<p class="frase">
+    "São todos seus os lugares que aprendi culturas e pessoas..."
+</p>
+
+
+        <section id="contato">
+            <h2>Contato</h2>
+
+            <form>
+                
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto" name="assunto" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+
+    
+    <footer>
+        <p>© 2025 Max Lima</p>
+        <p><a href="https://github.com/maxlima13" target="_blank">Meu GitHub</a></p>
+        <p><a href="mailto:max.lima11@aluno.ifce.edu.br" target="_blank">Meu E-mail </a></p>
     </footer>
+
 </body>
 </html>
