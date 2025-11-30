@@ -28,7 +28,7 @@ Este projeto, criado para a disciplina **Desenvolvimento Web I**, tem como propo
 ---
 
 ## 🌐 Acesse o site
-🔗 *Link do GitHub Pages aqui quando você publicar*
+🔗 *https://maxlima13.github.io/portifolio-web-1/*
 
 ---
 
