@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header {
+    background-color: #001F3F;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #8DAA91;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    border-left: 5px solid #008cba;
+    padding-left: 10px;
+}
+
+figure {
+    text-align: center;
+    background-color: #558df6;
+    padding: 2px; 
+    border-radius: 8px;
+    border: 1px solid #ccc; 
+    display: inline-block; 
+}
+
+figure img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+figcaption {
+    font-size: 14px;
+    color: #555;
+}
+
+
+#projetos ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#projetos a {
+    color: #008cba;
+    text-decoration: none;
+}
+
+#projetos a:hover {
+    color: #005f6a;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #aaa;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #ddd;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #777;
+    border-radius: 5px
+}
+
+button {
+    padding: 12px;
+    background-color: #008cba;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005f6a;
+}
+
+.area-galeria {
+  display: flex;              
+  flex-wrap: wrap;            
+  justify-content: center;    
+  align-items: flex-start;  
+  background-color: #E6ECF7;  
+  padding: 0;             
+  gap: 4px;            
+}
+
+.area-galeria figure {
+  margin: 0;                 
+}
+
+.area-galeria img {
+  width: 150px;               
+  height: auto;               
+  border: 1px solid #008cba;
+  display: block;
+}
+
+.frase {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #333;
+    font-style: italic;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+footer a {
+    color: #00c8ff;
+    text-decoration: none;
+}
